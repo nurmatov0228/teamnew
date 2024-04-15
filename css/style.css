@@ -1,1 +1,29 @@
-/*# sourceMappingURL=style.css.map */
+.featured {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.featured__title {
+  text-align: center;
+  color: rgb(69, 69, 116);
+}
+
+.featured__text {
+  width: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(116, 116, 116);
+}
+
+.top {
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.low {
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+}/*# sourceMappingURL=style.css.map */
