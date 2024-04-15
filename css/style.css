@@ -20,4 +20,48 @@ li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__logo {
+  width: 135px;
+  height: 38px;
+}
+.navbar__list {
+  display: flex;
+  gap: 33px;
+  margin-top: 10px;
+  margin-right: 400px;
+}
+.navbar__link {
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #A1B5BB;
+}
+.navbar__btn {
+  right: 100px;
+  width: 173px;
+  height: 48px;
+  border: none;
+  border-radius: 100px;
+  color: #FBFCFE;
+  background-color: #145E76;
+  cursor: pointer;
+}
+.navbar__btn:hover {
+  background-color: #27a1c9;
+  transition: all 0.3s linear;
+}
+
+#home {
+  -webkit-text-decoration: solid #A1B5BB;
+          text-decoration: solid #A1B5BB;
 }/*# sourceMappingURL=style.css.map */
