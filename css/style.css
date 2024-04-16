@@ -64,4 +64,24 @@ li {
 #home {
   -webkit-text-decoration: solid #A1B5BB;
           text-decoration: solid #A1B5BB;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1114px;
+  background-color: #043E51;
+}
+
+.intro {
+  margin-top: 33px;
+  display: flex;
+  gap: 34px;
+}
+.intro__hikoya {
+  width: 537px;
+  height: 544px;
+  margin-top: 117px;
 }/*# sourceMappingURL=style.css.map */
