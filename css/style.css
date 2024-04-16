@@ -82,6 +82,7 @@ header .intro {
 header .intro__hikoya {
   width: 537px;
   height: 544px;
+<<<<<<< HEAD
   margin-top: 253px;
 }
 header .intro__hikoya span {
@@ -139,4 +140,37 @@ header .intro__btn1 {
 header .intro__btn2 {
   background-color: #043E51;
   color: #B6CDD4;
+=======
+  margin-top: 117px;
+}
+
+.featured {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.featured__title {
+  text-align: center;
+  color: rgb(69, 69, 116);
+}
+
+.featured__text {
+  width: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(116, 116, 116);
+}
+
+.top {
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.low {
+  display: flex;
+  gap: 50px;
+  margin-top: 60px;
+>>>>>>> 22c2bd0efa986bf440bf602258267cd51c250f7b
 }/*# sourceMappingURL=style.css.map */
