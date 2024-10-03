@@ -46,7 +46,7 @@ header {
         line-height: 29px;
         color: #849499;
       }
-      
+
       button {
         font-family: "Inter";
         font-style: normal;
@@ -57,10 +57,13 @@ header {
       }
     }
 
-    &__buttons{
-        margin-top: 50px;
-        display: flex;
-        gap: 40px;
+    &__buttons {
+      margin-top: 50px;
+      display: flex;
+      gap: 40px;
+      :hover {
+        cursor: pointer;
+      }
     }
 
     &__btn1 {
@@ -75,9 +78,9 @@ header {
       border-radius: 25px;
     }
 
-    &__btn2{
-        background-color: #043E51;
-        color: #B6CDD4;
+    &__btn2 {
+      background-color: #043e51;
+      color: #b6cdd4;
     }
   }
 }

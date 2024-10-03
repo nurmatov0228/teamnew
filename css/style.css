@@ -82,7 +82,6 @@ header .intro {
 header .intro__hikoya {
   width: 537px;
   height: 544px;
-<<<<<<< HEAD
   margin-top: 253px;
 }
 header .intro__hikoya span {
@@ -126,6 +125,9 @@ header .intro__buttons {
   display: flex;
   gap: 40px;
 }
+header .intro__buttons :hover {
+  cursor: pointer;
+}
 header .intro__btn1 {
   width: 137px;
   height: 61px;
@@ -138,10 +140,8 @@ header .intro__btn1 {
   border-radius: 25px;
 }
 header .intro__btn2 {
-  background-color: #043E51;
-  color: #B6CDD4;
-=======
-  margin-top: 117px;
+  background-color: #043e51;
+  color: #b6cdd4;
 }
 
 .featured {
@@ -172,5 +172,4 @@ header .intro__btn2 {
   display: flex;
   gap: 50px;
   margin-top: 60px;
->>>>>>> 22c2bd0efa986bf440bf602258267cd51c250f7b
 }/*# sourceMappingURL=style.css.map */
